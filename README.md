@@ -22,3 +22,13 @@ Local Search found. Why is this?
 
 Add the code to run your experiments, graphs, and an explanation of what you did
 to this markdown file.
+
+-----
+
+The length of a Held-Karp tour is always less than or equal to the length of a Local Search tour because Held-Karp is an exact calculation, whereas Local Search gives a more estimated result.
+
+To complete this assignment, I used another student's implementations for TSP Held-Karp and TSP Local Search, as my implementation of Held-Karp isn't fully working yet, and I don't have an implementation of Local Search.  I used ChatGPT to generate matrices of increasing length, which I then used to compare the implementations.  To compare them, I used performance.now() on each matrix for both Held-Karp and Local Search, which returned the runtime in milliseconds.  The graphs given above have the times converted to seconds.  The provided code contains my last test for this assignment (testing Held-Karp in a matrix of 21 cities).  I was unable to get the largest input to a runtime of an hour, but only about 52 minutes when Held-Karp was tested on a matrix of 20 cities.  For some reason when I tested a matrix of 21 cities, I would never get a result, as it would run for almost over a day with nothing returned.
+
+-----
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models.  All of the work is my own, except where stated otherwise.  I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
